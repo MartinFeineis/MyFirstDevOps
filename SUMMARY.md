@@ -1,4 +1,4 @@
 # Outline
 
-[Lesson1](Linux.md)
+* [Lesson1](./Linux.md)
 
