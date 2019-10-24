@@ -1,5 +1,5 @@
 # Outline
 
-* [Lesson1](https://raw.githubusercontent.com/MartinFeineis/MyFirstDevOps/master/Chapter1/Lesson1.md)
+* [Lesson1](https://github.com/MartinFeineis/MyFirstDevOps/blob/master/Chapter1/Lesson1.md)
 
 
