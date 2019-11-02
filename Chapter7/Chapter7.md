@@ -10,6 +10,11 @@ There are basically 3 different types of Files that make up the Internet:
 2. CSS  
   CSS stands for _Cascading StyleSheets_ and it defines the style of the different 
   html elements.
+  
+3. JS/Javascript   
+  Javascript provides the logic HTML and CSS are missing for Websites. There are
+  a lot of Frameworks and other tools that are built on top of javascript. Some common
+  examples are Bootstrap, Nodejs and React.
 
 ## Internet 
 A great resource for learning HTML is [W3 School HTML](https://www.w3schools.com/html/default.asp)
