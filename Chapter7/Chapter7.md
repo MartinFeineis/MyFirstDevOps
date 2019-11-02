@@ -7,7 +7,7 @@ There are basically 3 different types of Files that make up the Internet:
   content of website.  
   
 2. CSS  
- CSS stands for _Cascading StyleSheets_ and it defines the style of the different 
- html elements.
+  CSS stands for _Cascading StyleSheets_ and it defines the style of the different 
+  html elements.
 ## Internet 
 A great resource for learning HTML is [W3 School HTML](https://www.w3schools.com/html/default.asp)
