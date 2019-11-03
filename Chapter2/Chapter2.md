@@ -8,7 +8,7 @@ To install a package with _<packagename>_ run
 `sudo apt install <packagename>`  You need to confirm this with `Y` or run the command like
 `sudo apt -y install <packagename>`
 Besides `apt` there is also `apt-get`. The former one, `apt` is meant
-to be used for endusers.
+to be used for endusers. Many commands between `apt` and `apt-get` are similar.
 
 ## Uninstalling/removing a package
 To uninstall a package run `sudo yum remove <packagename>`
