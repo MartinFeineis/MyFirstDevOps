@@ -1,7 +1,5 @@
-# Lesson 2
-Learning about Software Installation and Package Manager.
-
-## Yum Package Manager for Fedora
+# Package Manager
+## apt Package Manager for Ubuntu, Debian and Linux Mint
 To search for new Packages use, where the Packagename is _<packagename>_
 `yum search <packagename>`
 
