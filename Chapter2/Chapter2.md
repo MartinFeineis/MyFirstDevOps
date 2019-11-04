@@ -13,6 +13,14 @@ To install a package with _<packagename>_ run
 ## Uninstalling/removing a package
 To uninstall a package run `sudo yum remove <packagename>`
 
+## Showing package information
+```bash
+yum show <package>
+```
+
+
 ## Lesson Tests
-1. Install the package bsd-games.
-2. 
+1. Install the package `bsdgames`.
+2. Show the content of the `bsdgames` package.
+3. Get the version of the `bsdgames` package.
+4. Play one of the games.
