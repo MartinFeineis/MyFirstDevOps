@@ -18,3 +18,25 @@ There are basically 3 different types of Files that make up the Internet:
 
 ## Internet 
 A great resource for learning HTML is [W3 School HTML](https://www.w3schools.com/html/default.asp)
+
+# Domain Name Service (DNS)
+
+Every computer that is _on_ the Internet also has an IP Address (IP stands for _Internet Protocol_).
+You can find the IP Address of your computer with the command `ip a` the output should look like this:
+```
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 00:1d:72:20:80:39 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.151/24 brd 192.168.1.255 scope global dynamic enp2s0
+       valid_lft 72233sec preferred_lft 72233sec
+    inet6 fe80::b0f8:7c4e:d424:8e3c/64 scope link 
+       valid_lft forever preferred_lft forever
+3: wlp4s0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 00:17:c4:1a:be:24 brd ff:ff:ff:ff:ff:ff
+```
+There are two main Versions of the Internet Protocol, IPv4 and IPv6. 
