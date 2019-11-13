@@ -40,3 +40,19 @@ You can find the IP Address of your computer with the command `ip a` the output 
     link/ether 00:17:c4:1a:be:24 brd ff:ff:ff:ff:ff:ff
 ```
 There are two main Versions of the Internet Protocol, IPv4 and IPv6. 
+
+
+You can find the IP Address of a Webserver with `nslookup` for example:
+```bash
+nslookup www.404founders.com
+```
+Should return this:
+```bash
+➜ nslookup www.404founders.com
+Server:         127.0.1.1
+Address:        127.0.1.1#53
+
+Non-authoritative answer:
+Name:   www.404founders.com
+Address: 66.175.209.203
+```
