@@ -16,3 +16,7 @@ which I didn't understand at the time of reading.
 We will cover how the internet works with IP Addresses and 
 DNS resolution. We will learn basic 3-Tier Architecture, and understand Frontend, 
 Backend and Data Layer concepts and Technologies.
+
+## ToDos
+Add a folder for the content from 404founders, that then gets rendered into html.
+A second microservices/cronjob will ensure the content is up to date will ensure.
