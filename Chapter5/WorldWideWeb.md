@@ -59,5 +59,5 @@ Address: 66.175.209.203
 
 ## 3-Tier Model
 The probably most common used design architecture in the Internet is the so called
-3-Tier Architecture. It consist of the Frontend a Web Server and one or more additinal 
-backend servers.
+3-Tier Architecture. It consists of the Presentation Tier, the Logic Tier and the 
+Data Tier.
