@@ -4,16 +4,16 @@ Read the Microsoft Documentation here:
 [WSL][https://docs.microsoft.com/en-us/windows/wsl/install-win10]
 Enable the Feature in an administrative powershell window (aka. run as Administrator)
 ```
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux  
 ```
 Run the following commans in a regular Powershell Window. (If you run them in the same Window
 with Admin Privileges, then only Admins will be able to run the Linux Subsystem)
 ```
-Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile Ubuntu.appx -UseBasicParsing
-Rename-Item Ubuntu.appx Ubuntu.zip
-Expand-Archive Ubuntu.zip Ubuntu
-cd Ubuntu
-.\ubuntu.exe
+Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile Ubuntu.appx -UseBasicParsing  
+Rename-Item Ubuntu.appx Ubuntu.zip  
+Expand-Archive Ubuntu.zip Ubuntu  
+cd Ubuntu  
+.\ubuntu.exe  
 ```
 
 
