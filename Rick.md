@@ -1,4 +1,4 @@
-# 2nd LEsson
+# 2nd Lesson
 ## Windows Subsystem for Linux 
 Read the Microsoft Documentation here:  
 [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
@@ -34,3 +34,7 @@ Getting user information
 `aws iam get-user`
 or for a specific user
 `aws iam get-user --user-name user1`
+
+# AWS Cli security groups and jq
+`jq` is a command line tool to parse json in bash. See [jq](https://stedolan.github.io/jq/)
+
