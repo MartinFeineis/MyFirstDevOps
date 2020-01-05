@@ -29,13 +29,13 @@ After successful installation we configure it and test it.
 Configuration run: `aws configure` 
 this creates two files  `~/.aws/config` and `~/.aws/credentials/`
 
-# Aws Cli usage
+### Aws Cli usage
 Getting user information
 `aws iam get-user`
 or for a specific user
 `aws iam get-user --user-name user1`
 
-# AWS Cli security groups and jq
+### AWS Cli security groups and jq
 `jq` is a command line tool to parse json in bash. See [jq](https://stedolan.github.io/jq/)
 On Ubuntu/Debian `apt install jq` does the trick.
 For example select all _FromPort_s with `aws cli` and `jq` like this:
