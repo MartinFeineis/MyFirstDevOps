@@ -44,3 +44,6 @@ For example select all _FromPort_s with `aws cli` and `jq` like this:
 ```
 aws ec2 describe-security-groups | jq '.SecurityGroups[].IpPermissions[].FromPort'
 ```
+
+## Linux Firewalls and security
+[Linode Link](https://www.linode.com/docs/security/firewalls/configure-firewall-with-ufw/)
