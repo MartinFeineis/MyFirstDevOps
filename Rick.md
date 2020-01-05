@@ -8,16 +8,13 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 ```
 Run the following commans in a regular Powershell Window. (If you run them in the same Window
 with Admin Privileges, then only Admins will be able to run the Linux Subsystem)
+
 ```
 Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile Ubuntu.appx -UseBasicParsing  
-
 Rename-Item Ubuntu.appx Ubuntu.zip  
-
 Expand-Archive Ubuntu.zip Ubuntu  
-
 cd Ubuntu  
-
-.\ubuntu.exe
+.\ubuntu.exe  
 ```
 
 
@@ -36,6 +33,7 @@ this creates two files  `~/.aws/config` and `~/.aws/credentials/`
 ### Aws Cli usage
 Getting user information
 `aws iam get-user`
+
 or for a specific user
 `aws iam get-user --user-name user1`
 
