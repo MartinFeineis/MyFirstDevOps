@@ -10,8 +10,8 @@ Run the following commans in a regular Powershell Window. (If you run them in th
 with Admin Privileges, then only Admins will be able to run the Linux Subsystem)
 
 ```
-Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile Ubuntu.appx -UseBasicParsing  
-Rename-Item Ubuntu.appx Ubuntu.zip  
+Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile Ubuntu.appx -UseBasicParsing\
+Rename-Item Ubuntu.appx Ubuntu.zip< br>
 Expand-Archive Ubuntu.zip Ubuntu  
 cd Ubuntu  
 .\ubuntu.exe  
