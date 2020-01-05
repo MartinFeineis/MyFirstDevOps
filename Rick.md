@@ -28,3 +28,9 @@ messing with the PATH Environment variable.
 After successful installation we configure it and test it.
 Configuration run: `aws configure` 
 this creates two files  `~/.aws/config` and `~/.aws/credentials/`
+
+# Aws Cli usage
+Getting user information
+`aws iam get-user`
+or for a specific user
+`aws iam get-user --user-name user1`
