@@ -37,4 +37,7 @@ or for a specific user
 
 # AWS Cli security groups and jq
 `jq` is a command line tool to parse json in bash. See [jq](https://stedolan.github.io/jq/)
-
+For example select all _FromPort_s with `aws cli` and `jq` like this:
+```
+aws ec2 describe-security-groups | jq '.SecurityGroups[].IpPermissions[].FromPort'
+```
