@@ -31,6 +31,10 @@ Configuration run: `aws configure`
 this creates two files  `~/.aws/config` and `~/.aws/credentials/`
 
 ### Aws Cli usage
+Install aws cli with
+```
+pip3 aws-cli --user --upgrade
+```
 Getting user information
 `aws iam get-user`
 
