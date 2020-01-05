@@ -1,7 +1,7 @@
 # 2nd LEsson
 ## Windows Subsystem for Linux 
 Read the Microsoft Documentation here:  
-[WSL][https://docs.microsoft.com/en-us/windows/wsl/install-win10]
+(WSL)[https://docs.microsoft.com/en-us/windows/wsl/install-win10]
 Enable the Feature in an administrative powershell window (aka. run as Administrator)
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux  
